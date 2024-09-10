@@ -1,0 +1,66 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: rgba(0, 0, 0, 0.7) url('pexels-lood-goosen-508841-1235706.jpg') center center fixed;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container h1{
+    color: orangered;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.navebar ul li{
+    display: inline-block;
+    padding: 18px;
+    
+}
+.navebar ul li a{
+    padding: 3px;
+    color: aliceblue;
+    transition: 0.4s;
+}
+.navebar ul li a:hover{
+    box-shadow: 0 3px 50px orangered inset;
+    
+}
+.Res{
+    background: orangered;
+    padding: 0 3px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.landpage{
+   color: azure;
+   margin: 180px 120px;
+   padding: 30px 60px;
+   
+  
+}
+button{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-color: aqua;
+    background-color: orangered;
+    cursor: pointer;
+
+}
+input{
+padding: 10px 20px;
+font-size: medium;
+margin:10px 0px;
+}
+.landpage h1 h3 h6{
+    margin-top:10px 0px ;
+    font-size: medium;
+}
